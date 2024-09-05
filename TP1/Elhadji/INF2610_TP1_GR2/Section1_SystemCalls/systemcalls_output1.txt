@@ -11,7 +11,7 @@ uname -o :GNU/Linux
 uname -m :x86_64
 echo /home/elhadjisarr/.local/bin:/home/elhadjisarr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin : /home/elhadjisarr/.local/bin:/home/elhadjisarr/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin
 which sleep : /usr/bin/sleep
- ./sleep : 
+ ./sleep 1 : 
  /usr/bin/sleep 1: 
  ../../../../../../usr/bin/sleep 1 : 
  sleep 1000 + ctrl C: ^C 
