@@ -1,0 +1,33 @@
+16670 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff694494a10) = 16671
+16670 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff694494a10) = 16672
+16670 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+16671 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+16672 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+16670 <... clone resumed>, child_tidptr=0x7ff694494a10) = 16673
+16671 <... clone resumed>, child_tidptr=0x7ff694494a10) = 16674
+16672 <... clone resumed>, child_tidptr=0x7ff694494a10) = 16675
+16673 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff694494a10) = 16676
+16675 +++ exited with 0 +++
+16674 +++ exited with 0 +++
+16673 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+16672 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=16675, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+16671 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=16674, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+16673 <... clone resumed>, child_tidptr=0x7ff694494a10) = 16677
+16673 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+16672 +++ exited with 1 +++
+16676 +++ exited with 0 +++
+16670 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=16672, si_uid=1000, si_status=1, si_utime=0, si_stime=0} ---
+16673 <... clone resumed>, child_tidptr=0x7ff694494a10) = 16678
+16677 +++ exited with 0 +++
+16673 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=16676, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+16673 clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD <unfinished ...>
+16671 +++ exited with 1 +++
+16670 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=16671, si_uid=1000, si_status=1, si_utime=0, si_stime=0} ---
+16673 <... clone resumed>, child_tidptr=0x7ff694494a10) = 16679
+16678 +++ exited with 0 +++
+16673 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=16678, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+16679 +++ exited with 0 +++
+16673 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=16679, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+16673 +++ exited with 4 +++
+16670 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=16673, si_uid=1000, si_status=4, si_utime=0, si_stime=0} ---
+16670 +++ exited with 0 +++

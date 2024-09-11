@@ -7,6 +7,6 @@
 #ifndef _Q1_H
 #define _Q1_H
 
-void question1();
 
+void question1();
 #endif
