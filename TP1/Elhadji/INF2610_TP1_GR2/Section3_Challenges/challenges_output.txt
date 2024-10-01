@@ -1,6 +1,6 @@
 emplacement du répertoire : ./root/dir_0_level_1/dir_4_level_2/dir_1_level_3
-numéro d’identification du répertoire: 28656
-numéro d’identification du répertoire supérieur immédiat: 28655
+numéro d’identification du répertoire: 28969
+numéro d’identification du répertoire supérieur immédiat: 28968
 Fichiers texte:  
 	file_3_level_4.txt
 	file_1_level_4.txt
@@ -8,8 +8,8 @@ Fichiers texte:
 	file_0_level_4.txt
 
 emplacement du répertoire : ./root/dir_0_level_1/dir_4_level_2/dir_0_level_3
-numéro d’identification du répertoire: 28657
-numéro d’identification du répertoire supérieur immédiat: 28655
+numéro d’identification du répertoire: 28970
+numéro d’identification du répertoire supérieur immédiat: 28968
 Fichiers texte:  
 	file_5_level_4.txt
 	file_4_level_4.txt
@@ -20,8 +20,8 @@ Fichiers texte:
 	file_0_level_4.txt
 
 emplacement du répertoire : ./root/dir_0_level_1/dir_4_level_2/dir_3_level_3
-numéro d’identification du répertoire: 28658
-numéro d’identification du répertoire supérieur immédiat: 28655
+numéro d’identification du répertoire: 28971
+numéro d’identification du répertoire supérieur immédiat: 28968
 Fichiers texte:  
 	file_3_level_4.txt
 	file_1_level_4.txt
@@ -29,8 +29,8 @@ Fichiers texte:
 	file_0_level_4.txt
 
 emplacement du répertoire : ./root/dir_0_level_1/dir_4_level_2/dir_5_level_3
-numéro d’identification du répertoire: 28659
-numéro d’identification du répertoire supérieur immédiat: 28655
+numéro d’identification du répertoire: 28972
+numéro d’identification du répertoire supérieur immédiat: 28968
 Fichiers texte:  
 	file_5_level_4.txt
 	file_4_level_4.txt
@@ -41,16 +41,16 @@ Fichiers texte:
 	file_0_level_4.txt
 
 emplacement du répertoire : ./root/dir_0_level_1/dir_4_level_2
-numéro d’identification du répertoire: 28655
-numéro d’identification du répertoire supérieur immédiat: 28654
+numéro d’identification du répertoire: 28968
+numéro d’identification du répertoire supérieur immédiat: 28967
 Fichiers texte:  
 	file_6_level_3.txt
 	file_2_level_3.txt
 	file_4_level_3.txt
 
 emplacement du répertoire : ./root/dir_0_level_1/dir_3_level_2/dir_1_level_3
-numéro d’identification du répertoire: 28661
-numéro d’identification du répertoire supérieur immédiat: 28660
+numéro d’identification du répertoire: 28974
+numéro d’identification du répertoire supérieur immédiat: 28973
 Fichiers texte:  
 	file_5_level_4.txt
 	file_4_level_4.txt
@@ -60,8 +60,8 @@ Fichiers texte:
 	file_0_level_4.txt
 
 emplacement du répertoire : ./root/dir_0_level_1/dir_3_level_2/dir_0_level_3
-numéro d’identification du répertoire: 28662
-numéro d’identification du répertoire supérieur immédiat: 28660
+numéro d’identification du répertoire: 28975
+numéro d’identification du répertoire supérieur immédiat: 28973
 Fichiers texte:  
 	file_3_level_4.txt
 	file_1_level_4.txt
@@ -69,8 +69,8 @@ Fichiers texte:
 	file_0_level_4.txt
 
 emplacement du répertoire : ./root/dir_0_level_1/dir_3_level_2/dir_3_level_3
-numéro d’identification du répertoire: 28663
-numéro d’identification du répertoire supérieur immédiat: 28660
+numéro d’identification du répertoire: 28976
+numéro d’identification du répertoire supérieur immédiat: 28973
 Fichiers texte:  
 	file_5_level_4.txt
 	file_4_level_4.txt
@@ -80,8 +80,8 @@ Fichiers texte:
 	file_0_level_4.txt
 
 emplacement du répertoire : ./root/dir_0_level_1/dir_3_level_2/dir_2_level_3
-numéro d’identification du répertoire: 28664
-numéro d’identification du répertoire supérieur immédiat: 28660
+numéro d’identification du répertoire: 28977
+numéro d’identification du répertoire supérieur immédiat: 28973
 Fichiers texte:  
 	file_4_level_4.txt
 	file_3_level_4.txt
@@ -90,21 +90,21 @@ Fichiers texte:
 	file_0_level_4.txt
 
 emplacement du répertoire : ./root/dir_0_level_1/dir_3_level_2
-numéro d’identification du répertoire: 28660
-numéro d’identification du répertoire supérieur immédiat: 28654
+numéro d’identification du répertoire: 28973
+numéro d’identification du répertoire supérieur immédiat: 28967
 Fichiers texte:  
 
 emplacement du répertoire : ./root/dir_0_level_1/dir_2_level_2/dir_1_level_3
-numéro d’identification du répertoire: 28666
-numéro d’identification du répertoire supérieur immédiat: 28665
+numéro d’identification du répertoire: 28979
+numéro d’identification du répertoire supérieur immédiat: 28978
 Fichiers texte:  
 	file_1_level_4.txt
 	file_2_level_4.txt
 	file_0_level_4.txt
 
 emplacement du répertoire : ./root/dir_0_level_1/dir_2_level_2/dir_6_level_3
-numéro d’identification du répertoire: 28667
-numéro d’identification du répertoire supérieur immédiat: 28665
+numéro d’identification du répertoire: 28980
+numéro d’identification du répertoire supérieur immédiat: 28978
 Fichiers texte:  
 	file_3_level_4.txt
 	file_1_level_4.txt
@@ -112,8 +112,8 @@ Fichiers texte:
 	file_0_level_4.txt
 
 emplacement du répertoire : ./root/dir_0_level_1/dir_2_level_2/dir_2_level_3
-numéro d’identification du répertoire: 28668
-numéro d’identification du répertoire supérieur immédiat: 28665
+numéro d’identification du répertoire: 28981
+numéro d’identification du répertoire supérieur immédiat: 28978
 Fichiers texte:  
 	file_4_level_4.txt
 	file_3_level_4.txt
@@ -122,8 +122,8 @@ Fichiers texte:
 	file_0_level_4.txt
 
 emplacement du répertoire : ./root/dir_0_level_1/dir_2_level_2/dir_5_level_3
-numéro d’identification du répertoire: 28669
-numéro d’identification du répertoire supérieur immédiat: 28665
+numéro d’identification du répertoire: 28982
+numéro d’identification du répertoire supérieur immédiat: 28978
 Fichiers texte:  
 	file_3_level_4.txt
 	file_1_level_4.txt
@@ -131,24 +131,24 @@ Fichiers texte:
 	file_0_level_4.txt
 
 emplacement du répertoire : ./root/dir_0_level_1/dir_2_level_2
-numéro d’identification du répertoire: 28665
-numéro d’identification du répertoire supérieur immédiat: 28654
+numéro d’identification du répertoire: 28978
+numéro d’identification du répertoire supérieur immédiat: 28967
 Fichiers texte:  
 	file_0_level_3.txt
 	file_3_level_3.txt
 	file_4_level_3.txt
 
 emplacement du répertoire : ./root/dir_0_level_1/dir_6_level_2/dir_3_level_3
-numéro d’identification du répertoire: 28671
-numéro d’identification du répertoire supérieur immédiat: 28670
+numéro d’identification du répertoire: 28984
+numéro d’identification du répertoire supérieur immédiat: 28983
 Fichiers texte:  
 	file_1_level_4.txt
 	file_2_level_4.txt
 	file_0_level_4.txt
 
 emplacement du répertoire : ./root/dir_0_level_1/dir_6_level_2/dir_2_level_3
-numéro d’identification du répertoire: 28672
-numéro d’identification du répertoire supérieur immédiat: 28670
+numéro d’identification du répertoire: 28985
+numéro d’identification du répertoire supérieur immédiat: 28983
 Fichiers texte:  
 	file_3_level_4.txt
 	file_1_level_4.txt
@@ -156,15 +156,15 @@ Fichiers texte:
 	file_0_level_4.txt
 
 emplacement du répertoire : ./root/dir_0_level_1/dir_6_level_2
-numéro d’identification du répertoire: 28670
-numéro d’identification du répertoire supérieur immédiat: 28654
+numéro d’identification du répertoire: 28983
+numéro d’identification du répertoire supérieur immédiat: 28967
 Fichiers texte:  
 	file_0_level_3.txt
 	file_1_level_3.txt
 
 emplacement du répertoire : ./root/dir_0_level_1/dir_0_level_2/dir_0_level_3
-numéro d’identification du répertoire: 28674
-numéro d’identification du répertoire supérieur immédiat: 28673
+numéro d’identification du répertoire: 28987
+numéro d’identification du répertoire supérieur immédiat: 28986
 Fichiers texte:  
 	file_5_level_4.txt
 	file_4_level_4.txt
@@ -175,8 +175,8 @@ Fichiers texte:
 	file_0_level_4.txt
 
 emplacement du répertoire : ./root/dir_0_level_1/dir_0_level_2/dir_5_level_3
-numéro d’identification du répertoire: 28675
-numéro d’identification du répertoire supérieur immédiat: 28673
+numéro d’identification du répertoire: 28988
+numéro d’identification du répertoire supérieur immédiat: 28986
 Fichiers texte:  
 	file_5_level_4.txt
 	file_4_level_4.txt
@@ -186,8 +186,8 @@ Fichiers texte:
 	file_0_level_4.txt
 
 emplacement du répertoire : ./root/dir_0_level_1/dir_0_level_2
-numéro d’identification du répertoire: 28673
-numéro d’identification du répertoire supérieur immédiat: 28654
+numéro d’identification du répertoire: 28986
+numéro d’identification du répertoire supérieur immédiat: 28967
 Fichiers texte:  
 	file_6_level_3.txt
 	file_3_level_3.txt
@@ -196,15 +196,15 @@ Fichiers texte:
 	file_4_level_3.txt
 
 emplacement du répertoire : ./root/dir_0_level_1
-numéro d’identification du répertoire: 28654
-numéro d’identification du répertoire supérieur immédiat: 28653
+numéro d’identification du répertoire: 28967
+numéro d’identification du répertoire supérieur immédiat: 28966
 Fichiers texte:  
 	file_1_level_2.txt
 	file_5_level_2.txt
 
 emplacement du répertoire : ./root/dir_3_level_1/dir_4_level_2/dir_1_level_3
-numéro d’identification du répertoire: 28678
-numéro d’identification du répertoire supérieur immédiat: 28677
+numéro d’identification du répertoire: 28991
+numéro d’identification du répertoire supérieur immédiat: 28990
 Fichiers texte:  
 	file_3_level_4.txt
 	file_1_level_4.txt
@@ -212,8 +212,8 @@ Fichiers texte:
 	file_0_level_4.txt
 
 emplacement du répertoire : ./root/dir_3_level_1/dir_4_level_2/dir_2_level_3
-numéro d’identification du répertoire: 28679
-numéro d’identification du répertoire supérieur immédiat: 28677
+numéro d’identification du répertoire: 28992
+numéro d’identification du répertoire supérieur immédiat: 28990
 Fichiers texte:  
 	file_4_level_4.txt
 	file_3_level_4.txt
@@ -222,14 +222,14 @@ Fichiers texte:
 	file_0_level_4.txt
 
 emplacement du répertoire : ./root/dir_3_level_1/dir_4_level_2
-numéro d’identification du répertoire: 28677
-numéro d’identification du répertoire supérieur immédiat: 28676
+numéro d’identification du répertoire: 28990
+numéro d’identification du répertoire supérieur immédiat: 28989
 Fichiers texte:  
 	file_0_level_3.txt
 
 emplacement du répertoire : ./root/dir_3_level_1/dir_3_level_2/dir_1_level_3
-numéro d’identification du répertoire: 28681
-numéro d’identification du répertoire supérieur immédiat: 28680
+numéro d’identification du répertoire: 28994
+numéro d’identification du répertoire supérieur immédiat: 28993
 Fichiers texte:  
 	file_3_level_4.txt
 	file_1_level_4.txt
@@ -237,8 +237,8 @@ Fichiers texte:
 	file_0_level_4.txt
 
 emplacement du répertoire : ./root/dir_3_level_1/dir_3_level_2/dir_3_level_3
-numéro d’identification du répertoire: 28682
-numéro d’identification du répertoire supérieur immédiat: 28680
+numéro d’identification du répertoire: 28995
+numéro d’identification du répertoire supérieur immédiat: 28993
 Fichiers texte:  
 	file_3_level_4.txt
 	file_1_level_4.txt
@@ -246,16 +246,16 @@ Fichiers texte:
 	file_0_level_4.txt
 
 emplacement du répertoire : ./root/dir_3_level_1/dir_3_level_2/dir_6_level_3
-numéro d’identification du répertoire: 28683
-numéro d’identification du répertoire supérieur immédiat: 28680
+numéro d’identification du répertoire: 28996
+numéro d’identification du répertoire supérieur immédiat: 28993
 Fichiers texte:  
 	file_1_level_4.txt
 	file_2_level_4.txt
 	file_0_level_4.txt
 
 emplacement du répertoire : ./root/dir_3_level_1/dir_3_level_2/dir_2_level_3
-numéro d’identification du répertoire: 28684
-numéro d’identification du répertoire supérieur immédiat: 28680
+numéro d’identification du répertoire: 28997
+numéro d’identification du répertoire supérieur immédiat: 28993
 Fichiers texte:  
 	file_4_level_4.txt
 	file_3_level_4.txt
@@ -264,16 +264,16 @@ Fichiers texte:
 	file_0_level_4.txt
 
 emplacement du répertoire : ./root/dir_3_level_1/dir_3_level_2/dir_4_level_3
-numéro d’identification du répertoire: 28685
-numéro d’identification du répertoire supérieur immédiat: 28680
+numéro d’identification du répertoire: 28998
+numéro d’identification du répertoire supérieur immédiat: 28993
 Fichiers texte:  
 	file_1_level_4.txt
 	file_2_level_4.txt
 	file_0_level_4.txt
 
 emplacement du répertoire : ./root/dir_3_level_1/dir_3_level_2/dir_5_level_3
-numéro d’identification du répertoire: 28686
-numéro d’identification du répertoire supérieur immédiat: 28680
+numéro d’identification du répertoire: 28999
+numéro d’identification du répertoire supérieur immédiat: 28993
 Fichiers texte:  
 	file_3_level_4.txt
 	file_1_level_4.txt
@@ -281,14 +281,14 @@ Fichiers texte:
 	file_0_level_4.txt
 
 emplacement du répertoire : ./root/dir_3_level_1/dir_3_level_2
-numéro d’identification du répertoire: 28680
-numéro d’identification du répertoire supérieur immédiat: 28676
+numéro d’identification du répertoire: 28993
+numéro d’identification du répertoire supérieur immédiat: 28989
 Fichiers texte:  
 	file_0_level_3.txt
 
 emplacement du répertoire : ./root/dir_3_level_1/dir_5_level_2/dir_0_level_3
-numéro d’identification du répertoire: 28688
-numéro d’identification du répertoire supérieur immédiat: 28687
+numéro d’identification du répertoire: 29001
+numéro d’identification du répertoire supérieur immédiat: 29000
 Fichiers texte:  
 	file_5_level_4.txt
 	file_4_level_4.txt
@@ -299,22 +299,22 @@ Fichiers texte:
 	file_0_level_4.txt
 
 emplacement du répertoire : ./root/dir_3_level_1/dir_5_level_2/dir_2_level_3
-numéro d’identification du répertoire: 28689
-numéro d’identification du répertoire supérieur immédiat: 28687
+numéro d’identification du répertoire: 29002
+numéro d’identification du répertoire supérieur immédiat: 29000
 Fichiers texte:  
 	file_1_level_4.txt
 	file_2_level_4.txt
 	file_0_level_4.txt
 
 emplacement du répertoire : ./root/dir_3_level_1/dir_5_level_2
-numéro d’identification du répertoire: 28687
-numéro d’identification du répertoire supérieur immédiat: 28676
+numéro d’identification du répertoire: 29000
+numéro d’identification du répertoire supérieur immédiat: 28989
 Fichiers texte:  
 	file_1_level_3.txt
 
 emplacement du répertoire : ./root/dir_3_level_1/dir_1_level_2/dir_1_level_3
-numéro d’identification du répertoire: 28691
-numéro d’identification du répertoire supérieur immédiat: 28690
+numéro d’identification du répertoire: 29004
+numéro d’identification du répertoire supérieur immédiat: 29003
 Fichiers texte:  
 	file_3_level_4.txt
 	file_1_level_4.txt
@@ -322,8 +322,8 @@ Fichiers texte:
 	file_0_level_4.txt
 
 emplacement du répertoire : ./root/dir_3_level_1/dir_1_level_2/dir_3_level_3
-numéro d’identification du répertoire: 28692
-numéro d’identification du répertoire supérieur immédiat: 28690
+numéro d’identification du répertoire: 29005
+numéro d’identification du répertoire supérieur immédiat: 29003
 Fichiers texte:  
 	file_4_level_4.txt
 	file_3_level_4.txt
@@ -332,8 +332,8 @@ Fichiers texte:
 	file_0_level_4.txt
 
 emplacement du répertoire : ./root/dir_3_level_1/dir_1_level_2/dir_4_level_3
-numéro d’identification du répertoire: 28693
-numéro d’identification du répertoire supérieur immédiat: 28690
+numéro d’identification du répertoire: 29006
+numéro d’identification du répertoire supérieur immédiat: 29003
 Fichiers texte:  
 	file_5_level_4.txt
 	file_4_level_4.txt
@@ -343,15 +343,15 @@ Fichiers texte:
 	file_0_level_4.txt
 
 emplacement du répertoire : ./root/dir_3_level_1/dir_1_level_2
-numéro d’identification du répertoire: 28690
-numéro d’identification du répertoire supérieur immédiat: 28676
+numéro d’identification du répertoire: 29003
+numéro d’identification du répertoire supérieur immédiat: 28989
 Fichiers texte:  
 	file_0_level_3.txt
 	file_2_level_3.txt
 
 emplacement du répertoire : ./root/dir_3_level_1/dir_0_level_2/dir_1_level_3
-numéro d’identification du répertoire: 28695
-numéro d’identification du répertoire supérieur immédiat: 28694
+numéro d’identification du répertoire: 29008
+numéro d’identification du répertoire supérieur immédiat: 29007
 Fichiers texte:  
 	file_3_level_4.txt
 	file_1_level_4.txt
@@ -359,21 +359,21 @@ Fichiers texte:
 	file_0_level_4.txt
 
 emplacement du répertoire : ./root/dir_3_level_1/dir_0_level_2
-numéro d’identification du répertoire: 28694
-numéro d’identification du répertoire supérieur immédiat: 28676
+numéro d’identification du répertoire: 29007
+numéro d’identification du répertoire supérieur immédiat: 28989
 Fichiers texte:  
 	file_0_level_3.txt
 	file_2_level_3.txt
 
 emplacement du répertoire : ./root/dir_3_level_1
-numéro d’identification du répertoire: 28676
-numéro d’identification du répertoire supérieur immédiat: 28653
+numéro d’identification du répertoire: 28989
+numéro d’identification du répertoire supérieur immédiat: 28966
 Fichiers texte:  
 	file_2_level_2.txt
 	file_6_level_2.txt
 
 emplacement du répertoire : ./root
-numéro d’identification du répertoire: 28653
+numéro d’identification du répertoire: 28966
 numéro d’identification du répertoire supérieur immédiat: 19670
 Fichiers texte:  
 	file_2_level_1.txt
