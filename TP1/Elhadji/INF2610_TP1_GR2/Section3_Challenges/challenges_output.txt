@@ -1,0 +1,601 @@
+emplacement du répertoire : ./root/dir_0_level_1/dir_4_level_2/dir_1_level_3
+numéro d’identification du répertoire: 27402
+numéro d’identification du répertoire supérieur immédiat: 27401
+Fichiers texte:  
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_0_level_1/dir_4_level_2/dir_0_level_3
+numéro d’identification du répertoire: 27403
+numéro d’identification du répertoire supérieur immédiat: 27401
+Fichiers texte:  
+	file_5_level_4.txt
+	file_4_level_4.txt
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_6_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_0_level_1/dir_4_level_2/dir_3_level_3
+numéro d’identification du répertoire: 27404
+numéro d’identification du répertoire supérieur immédiat: 27401
+Fichiers texte:  
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_0_level_1/dir_4_level_2/dir_5_level_3
+numéro d’identification du répertoire: 27405
+numéro d’identification du répertoire supérieur immédiat: 27401
+Fichiers texte:  
+	file_5_level_4.txt
+	file_4_level_4.txt
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_6_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_0_level_1/dir_4_level_2
+numéro d’identification du répertoire: 27401
+numéro d’identification du répertoire supérieur immédiat: 27400
+Fichiers texte:  
+	file_6_level_3.txt
+	file_2_level_3.txt
+	file_4_level_3.txt
+
+emplacement du répertoire : ./root/dir_0_level_1/dir_3_level_2/dir_1_level_3
+numéro d’identification du répertoire: 27407
+numéro d’identification du répertoire supérieur immédiat: 27406
+Fichiers texte:  
+	file_5_level_4.txt
+	file_4_level_4.txt
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_0_level_1/dir_3_level_2/dir_0_level_3
+numéro d’identification du répertoire: 27408
+numéro d’identification du répertoire supérieur immédiat: 27406
+Fichiers texte:  
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_0_level_1/dir_3_level_2/dir_3_level_3
+numéro d’identification du répertoire: 27409
+numéro d’identification du répertoire supérieur immédiat: 27406
+Fichiers texte:  
+	file_5_level_4.txt
+	file_4_level_4.txt
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_0_level_1/dir_3_level_2/dir_2_level_3
+numéro d’identification du répertoire: 27410
+numéro d’identification du répertoire supérieur immédiat: 27406
+Fichiers texte:  
+	file_4_level_4.txt
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_0_level_1/dir_3_level_2
+numéro d’identification du répertoire: 27406
+numéro d’identification du répertoire supérieur immédiat: 27400
+Fichiers texte:  
+
+emplacement du répertoire : ./root/dir_0_level_1/dir_2_level_2/dir_1_level_3
+numéro d’identification du répertoire: 27412
+numéro d’identification du répertoire supérieur immédiat: 27411
+Fichiers texte:  
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_0_level_1/dir_2_level_2/dir_6_level_3
+numéro d’identification du répertoire: 27413
+numéro d’identification du répertoire supérieur immédiat: 27411
+Fichiers texte:  
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_0_level_1/dir_2_level_2/dir_2_level_3
+numéro d’identification du répertoire: 27414
+numéro d’identification du répertoire supérieur immédiat: 27411
+Fichiers texte:  
+	file_4_level_4.txt
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_0_level_1/dir_2_level_2/dir_5_level_3
+numéro d’identification du répertoire: 27415
+numéro d’identification du répertoire supérieur immédiat: 27411
+Fichiers texte:  
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_0_level_1/dir_2_level_2
+numéro d’identification du répertoire: 27411
+numéro d’identification du répertoire supérieur immédiat: 27400
+Fichiers texte:  
+	file_0_level_3.txt
+	file_3_level_3.txt
+	file_4_level_3.txt
+
+emplacement du répertoire : ./root/dir_0_level_1/dir_6_level_2/dir_3_level_3
+numéro d’identification du répertoire: 27417
+numéro d’identification du répertoire supérieur immédiat: 27416
+Fichiers texte:  
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_0_level_1/dir_6_level_2/dir_2_level_3
+numéro d’identification du répertoire: 27418
+numéro d’identification du répertoire supérieur immédiat: 27416
+Fichiers texte:  
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_0_level_1/dir_6_level_2
+numéro d’identification du répertoire: 27416
+numéro d’identification du répertoire supérieur immédiat: 27400
+Fichiers texte:  
+	file_0_level_3.txt
+	file_1_level_3.txt
+
+emplacement du répertoire : ./root/dir_0_level_1/dir_0_level_2/dir_0_level_3
+numéro d’identification du répertoire: 27420
+numéro d’identification du répertoire supérieur immédiat: 27419
+Fichiers texte:  
+	file_5_level_4.txt
+	file_4_level_4.txt
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_6_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_0_level_1/dir_0_level_2/dir_5_level_3
+numéro d’identification du répertoire: 27421
+numéro d’identification du répertoire supérieur immédiat: 27419
+Fichiers texte:  
+	file_5_level_4.txt
+	file_4_level_4.txt
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_0_level_1/dir_0_level_2
+numéro d’identification du répertoire: 27419
+numéro d’identification du répertoire supérieur immédiat: 27400
+Fichiers texte:  
+	file_6_level_3.txt
+	file_3_level_3.txt
+	file_2_level_3.txt
+	file_1_level_3.txt
+	file_4_level_3.txt
+
+emplacement du répertoire : ./root/dir_0_level_1
+numéro d’identification du répertoire: 27400
+numéro d’identification du répertoire supérieur immédiat: 27399
+Fichiers texte:  
+	file_1_level_2.txt
+	file_5_level_2.txt
+
+emplacement du répertoire : ./root/dir_2_level_1/dir_2_level_2/dir_0_level_3
+numéro d’identification du répertoire: 27424
+numéro d’identification du répertoire supérieur immédiat: 27423
+Fichiers texte:  
+	file_4_level_4.txt
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_2_level_1/dir_2_level_2
+numéro d’identification du répertoire: 27423
+numéro d’identification du répertoire supérieur immédiat: 27422
+Fichiers texte:  
+	file_2_level_3.txt
+	file_1_level_3.txt
+
+emplacement du répertoire : ./root/dir_2_level_1/dir_1_level_2/dir_1_level_3
+numéro d’identification du répertoire: 27426
+numéro d’identification du répertoire supérieur immédiat: 27425
+Fichiers texte:  
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_2_level_1/dir_1_level_2/dir_0_level_3
+numéro d’identification du répertoire: 27427
+numéro d’identification du répertoire supérieur immédiat: 27425
+Fichiers texte:  
+	file_5_level_4.txt
+	file_4_level_4.txt
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_2_level_1/dir_1_level_2/dir_4_level_3
+numéro d’identification du répertoire: 27428
+numéro d’identification du répertoire supérieur immédiat: 27425
+Fichiers texte:  
+	file_5_level_4.txt
+	file_4_level_4.txt
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_2_level_1/dir_1_level_2
+numéro d’identification du répertoire: 27425
+numéro d’identification du répertoire supérieur immédiat: 27422
+Fichiers texte:  
+	file_3_level_3.txt
+	file_5_level_3.txt
+	file_2_level_3.txt
+
+emplacement du répertoire : ./root/dir_2_level_1/dir_0_level_2/dir_1_level_3
+numéro d’identification du répertoire: 27430
+numéro d’identification du répertoire supérieur immédiat: 27429
+Fichiers texte:  
+	file_5_level_4.txt
+	file_4_level_4.txt
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_2_level_1/dir_0_level_2/dir_0_level_3
+numéro d’identification du répertoire: 27431
+numéro d’identification du répertoire supérieur immédiat: 27429
+Fichiers texte:  
+	file_5_level_4.txt
+	file_4_level_4.txt
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_6_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_2_level_1/dir_0_level_2/dir_2_level_3
+numéro d’identification du répertoire: 27432
+numéro d’identification du répertoire supérieur immédiat: 27429
+Fichiers texte:  
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_2_level_1/dir_0_level_2/dir_5_level_3
+numéro d’identification du répertoire: 27433
+numéro d’identification du répertoire supérieur immédiat: 27429
+Fichiers texte:  
+	file_5_level_4.txt
+	file_4_level_4.txt
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_6_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_2_level_1/dir_0_level_2
+numéro d’identification du répertoire: 27429
+numéro d’identification du répertoire supérieur immédiat: 27422
+Fichiers texte:  
+	file_6_level_3.txt
+	file_3_level_3.txt
+	file_4_level_3.txt
+
+emplacement du répertoire : ./root/dir_2_level_1
+numéro d’identification du répertoire: 27422
+numéro d’identification du répertoire supérieur immédiat: 27399
+Fichiers texte:  
+
+emplacement du répertoire : ./root/dir_3_level_1/dir_4_level_2/dir_1_level_3
+numéro d’identification du répertoire: 27436
+numéro d’identification du répertoire supérieur immédiat: 27435
+Fichiers texte:  
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_3_level_1/dir_4_level_2/dir_2_level_3
+numéro d’identification du répertoire: 27437
+numéro d’identification du répertoire supérieur immédiat: 27435
+Fichiers texte:  
+	file_4_level_4.txt
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_3_level_1/dir_4_level_2
+numéro d’identification du répertoire: 27435
+numéro d’identification du répertoire supérieur immédiat: 27434
+Fichiers texte:  
+	file_0_level_3.txt
+
+emplacement du répertoire : ./root/dir_3_level_1/dir_3_level_2/dir_1_level_3
+numéro d’identification du répertoire: 27439
+numéro d’identification du répertoire supérieur immédiat: 27438
+Fichiers texte:  
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_3_level_1/dir_3_level_2/dir_0_level_3
+numéro d’identification du répertoire: 27440
+numéro d’identification du répertoire supérieur immédiat: 27438
+Fichiers texte:  
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_3_level_1/dir_3_level_2/dir_3_level_3
+numéro d’identification du répertoire: 27441
+numéro d’identification du répertoire supérieur immédiat: 27438
+Fichiers texte:  
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_3_level_1/dir_3_level_2/dir_6_level_3
+numéro d’identification du répertoire: 27442
+numéro d’identification du répertoire supérieur immédiat: 27438
+Fichiers texte:  
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_3_level_1/dir_3_level_2/dir_2_level_3
+numéro d’identification du répertoire: 27443
+numéro d’identification du répertoire supérieur immédiat: 27438
+Fichiers texte:  
+	file_4_level_4.txt
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_3_level_1/dir_3_level_2/dir_4_level_3
+numéro d’identification du répertoire: 27444
+numéro d’identification du répertoire supérieur immédiat: 27438
+Fichiers texte:  
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_3_level_1/dir_3_level_2/dir_5_level_3
+numéro d’identification du répertoire: 27445
+numéro d’identification du répertoire supérieur immédiat: 27438
+Fichiers texte:  
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_3_level_1/dir_3_level_2
+numéro d’identification du répertoire: 27438
+numéro d’identification du répertoire supérieur immédiat: 27434
+Fichiers texte:  
+	file_0_level_3.txt
+	file_1_level_3.txt
+
+emplacement du répertoire : ./root/dir_3_level_1/dir_5_level_2/dir_0_level_3
+numéro d’identification du répertoire: 27447
+numéro d’identification du répertoire supérieur immédiat: 27446
+Fichiers texte:  
+	file_5_level_4.txt
+	file_4_level_4.txt
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_6_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_3_level_1/dir_5_level_2/dir_2_level_3
+numéro d’identification du répertoire: 27448
+numéro d’identification du répertoire supérieur immédiat: 27446
+Fichiers texte:  
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_3_level_1/dir_5_level_2
+numéro d’identification du répertoire: 27446
+numéro d’identification du répertoire supérieur immédiat: 27434
+Fichiers texte:  
+	file_1_level_3.txt
+
+emplacement du répertoire : ./root/dir_3_level_1/dir_2_level_2/dir_0_level_3/dir_test
+numéro d’identification du répertoire: 27451
+numéro d’identification du répertoire supérieur immédiat: 27450
+Fichiers texte:  
+
+emplacement du répertoire : ./root/dir_3_level_1/dir_2_level_2/dir_0_level_3
+numéro d’identification du répertoire: 27450
+numéro d’identification du répertoire supérieur immédiat: 27449
+Fichiers texte:  
+	file_5_level_4.txt
+	file_4_level_4.txt
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_3_level_1/dir_2_level_2/dir_3_level_3
+numéro d’identification du répertoire: 27452
+numéro d’identification du répertoire supérieur immédiat: 27449
+Fichiers texte:  
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_3_level_1/dir_2_level_2/dir_2_level_3
+numéro d’identification du répertoire: 27453
+numéro d’identification du répertoire supérieur immédiat: 27449
+Fichiers texte:  
+	file_5_level_4.txt
+	file_4_level_4.txt
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_6_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_3_level_1/dir_2_level_2
+numéro d’identification du répertoire: 27449
+numéro d’identification du répertoire supérieur immédiat: 27434
+Fichiers texte:  
+	file_1_level_3.txt
+
+emplacement du répertoire : ./root/dir_3_level_1/dir_1_level_2/dir_1_level_3
+numéro d’identification du répertoire: 27455
+numéro d’identification du répertoire supérieur immédiat: 27454
+Fichiers texte:  
+	file_4_level_4.txt
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_3_level_1/dir_1_level_2/dir_0_level_3
+numéro d’identification du répertoire: 27456
+numéro d’identification du répertoire supérieur immédiat: 27454
+Fichiers texte:  
+	file_5_level_4.txt
+	file_4_level_4.txt
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_6_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_3_level_1/dir_1_level_2/dir_3_level_3
+numéro d’identification du répertoire: 27457
+numéro d’identification du répertoire supérieur immédiat: 27454
+Fichiers texte:  
+	file_5_level_4.txt
+	file_4_level_4.txt
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_6_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_3_level_1/dir_1_level_2/dir_6_level_3
+numéro d’identification du répertoire: 27458
+numéro d’identification du répertoire supérieur immédiat: 27454
+Fichiers texte:  
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_3_level_1/dir_1_level_2/dir_4_level_3
+numéro d’identification du répertoire: 27459
+numéro d’identification du répertoire supérieur immédiat: 27454
+Fichiers texte:  
+	file_5_level_4.txt
+	file_4_level_4.txt
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_3_level_1/dir_1_level_2/dir_5_level_3
+numéro d’identification du répertoire: 27460
+numéro d’identification du répertoire supérieur immédiat: 27454
+Fichiers texte:  
+	file_5_level_4.txt
+	file_4_level_4.txt
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_6_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_3_level_1/dir_1_level_2
+numéro d’identification du répertoire: 27454
+numéro d’identification du répertoire supérieur immédiat: 27434
+Fichiers texte:  
+	file_0_level_3.txt
+	file_2_level_3.txt
+
+emplacement du répertoire : ./root/dir_3_level_1/dir_0_level_2/dir_1_level_3
+numéro d’identification du répertoire: 27462
+numéro d’identification du répertoire supérieur immédiat: 27461
+Fichiers texte:  
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_3_level_1/dir_0_level_2/dir_2_level_3
+numéro d’identification du répertoire: 27463
+numéro d’identification du répertoire supérieur immédiat: 27461
+Fichiers texte:  
+	file_3_level_4.txt
+	file_1_level_4.txt
+	file_2_level_4.txt
+	file_0_level_4.txt
+
+emplacement du répertoire : ./root/dir_3_level_1/dir_0_level_2
+numéro d’identification du répertoire: 27461
+numéro d’identification du répertoire supérieur immédiat: 27434
+Fichiers texte:  
+	file_0_level_3.txt
+	file_2_level_3.txt
+
+emplacement du répertoire : ./root/dir_3_level_1
+numéro d’identification du répertoire: 27434
+numéro d’identification du répertoire supérieur immédiat: 27399
+Fichiers texte:  
+	file_2_level_2.txt
+	file_4_level_2.txt
+	file_6_level_2.txt
+
+emplacement du répertoire : ./root/dir_1_level_1
+numéro d’identification du répertoire: 27464
+numéro d’identification du répertoire supérieur immédiat: 27399
+Fichiers texte:  
+	file_2_level_2.txt
+	file_3_level_2.txt
+	file_0_level_2.txt
+	file_1_level_2.txt
+
+emplacement du répertoire : ./root
+numéro d’identification du répertoire: 27399
+numéro d’identification du répertoire supérieur immédiat: 19670
+Fichiers texte:  
+	file_2_level_1.txt
+	file_1_level_1.txt
+	file_0_level_1.txt
+	file_4_level_1.txt
+
