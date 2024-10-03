@@ -36,7 +36,7 @@ void* contribution(void*p)
   }
   somme[no] = sommeFinal;
 
-  printf("%ld \n", somme[no]);
+  //printf("%ld \n", somme[no]);
 
   pthread_exit(0);
 }
@@ -45,14 +45,12 @@ void* contribution(void*p)
 void question2( )
 {
   pthread_t tabTid[nb];
-  int arg1 = 0;
-  int arg2 = 1;
-  int arg3 = 2;
-  int arg4 = 3;
-  pthread_create(&tabTid[0], NULL, contribution, (void *)&arg1);
-  pthread_create(&tabTid[1], NULL, contribution, (void *)&arg2);
-  pthread_create(&tabTid[2], NULL, contribution, (void *)&arg3);
-  pthread_create(&tabTid[3], NULL, contribution, (void *)&arg4);
+  int tabArgs[nb];
+  for (int i = 0; i < nb; ++i){
+      tabArgs[i] = i;
+      pthread_create(&tabTid[i], NULL, contribution, (void *)&tabArgs[i]);
+
+  }
   
   for (int i = 0; i < nb; ++i){
     pthread_join(tabTid[i], NULL);
