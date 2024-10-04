@@ -7,8 +7,8 @@
 */
 #include "challenges_part2.h"
 
-const int INTERVALLE_X = 100;
-const int INTERVALLE_Y = 10;
+const int INTERVALLE_X = 500;
+const int INTERVALLE_Y = 500;
 
 void passed(){
     printf("passed \n");
@@ -23,12 +23,6 @@ void printMatrix(Matrix* matrix) {
     }
 }
 
-// void freeMatrix(Matrix* mat) {
-//     for (int i = 0; i < mat->rows; i++) {
-//         free(mat->matrix[i]);
-//     }
-//     free(mat->matrix);
-// }
 
 typedef struct {
     Matrix* A;
@@ -76,16 +70,14 @@ Matrix* matrixGenerator(short rows, short cols){
 void* LineRowProduct(void* argStructure){
 
     ArgsThread args = *(ArgsThread*) argStructure; 
-
-    short produit = 0;
+    args.C->matrix[args.rowPosition][args.colPosition] = 0;
     for(int i = 0; i < args.B->rows; ++i){
-        produit += args.A->matrix[args.rowPosition][i] * args.B->matrix[i][args.colPosition];
+         args.C->matrix[args.rowPosition][args.colPosition] += args.A->matrix[args.rowPosition][i] * args.B->matrix[i][args.colPosition];
     }
 
-    args.C->matrix[args.rowPosition][args.colPosition] = produit;
     
 
-    pthread_exit((void *)&produit);
+    pthread_exit(NULL);
 
 }
 
@@ -96,8 +88,8 @@ void* calculSeparation(void* arguments){
     short longueur = args.limites.maxRows - args.limites.minRows;
     short largeur = args.limites.maxCols - args.limites.minCols;
 
-    pthread_t tabTid[longueur* largeur];
-    ArgsThread tabArgs[longueur * largeur];
+    pthread_t* tabTid = (pthread_t*)malloc(sizeof(pthread_t)*longueur* largeur);
+    ArgsThread* tabArgs = (ArgsThread*) malloc(sizeof(ArgsThread) *longueur * largeur);
     
     for (int i = 0; i < longueur; ++i){
         
@@ -115,6 +107,9 @@ void* calculSeparation(void* arguments){
                     pthread_join(tabTid[i*largeur + j], NULL);
             }
         }
+
+        free(tabTid);
+        free(tabArgs);
     
     
 
@@ -135,17 +130,11 @@ void* largeMatrixMultply(void* arguments){
     for (int i = 0; i < longueur; ++i){
         
             for(int j = 0; j < largeur; ++j){
-                ArgsThread argsThread = { args.matrixes.A, args.matrixes.B, args.matrixes.C, i + args.limites.minRows, j + args.limites.minCols};
-                //tabArgs[i*largeur +j] = argsThread;
-                //passed();
-                short produit = 0;
-                 for(int k = 0; k < args.matrixes.B->rows; ++k){
-                      produit += args.matrixes.A->matrix[i + args.limites.minRows][k] * args.matrixes.B->matrix[k][j + args.limites.minCols];
-                }
+                 args.matrixes.C->matrix[i + args.limites.minRows][j + args.limites.minCols] = 0;
+                for(int k = 0; k < args.matrixes.B->rows; ++k){
+                       args.matrixes.C->matrix[i + args.limites.minRows][j + args.limites.minCols] += args.matrixes.A->matrix[i + args.limites.minRows][k] * args.matrixes.B->matrix[k][j + args.limites.minCols];
+                 }
 
-                args.matrixes.C->matrix[i + args.limites.minRows][j + args.limites.minCols] = produit;
-                //args.matrixes.C->matrix[i + args.limites.minRows][j+args.limites.minCols] = 1;
-                //printf("%d", args.matrixes.C->matrix[i + args.limites.minRows][j+args.limites.minCols]);
                 
             }
             
@@ -153,18 +142,16 @@ void* largeMatrixMultply(void* arguments){
     pthread_exit(NULL);
 }
 
-void gestionLargeMatrix (MatrixGroup matrixes){
+void* gestionLargeMatrix (void* arguments){
 
+    MatrixGroup matrixes = *(MatrixGroup*) arguments;
     int limIteration_X = matrixes.C->cols/INTERVALLE_X;
     int limIteration_Y = matrixes.C->rows/INTERVALLE_Y;
 
-    pthread_t tabTid[limIteration_X * limIteration_Y];
-    CalculsSeparationArgs tabArgs[limIteration_X * limIteration_Y];
-
-    printf("%d \n", limIteration_X);
+    pthread_t* tabTid = (pthread_t*)malloc(sizeof(pthread_t)*limIteration_X * limIteration_Y);
+    CalculsSeparationArgs* tabArgs = (CalculsSeparationArgs*) malloc(sizeof(CalculsSeparationArgs) * limIteration_X * limIteration_Y);
 
    for (int i = 0; i < limIteration_Y; ++i){
-        printf("%d \n", i);
         for(int j = 0; j < limIteration_X; ++j){
             
             MatrixGroup matrices = { matrixes.A, matrixes.B, matrixes.C};
@@ -172,6 +159,8 @@ void gestionLargeMatrix (MatrixGroup matrixes){
             CalculsSeparationArgs calculsSeparationArgs = {matrices, limites};
 
             tabArgs[i*limIteration_X + j] = calculsSeparationArgs;
+            
+        
             pthread_create(&tabTid[i*limIteration_X + j], NULL, largeMatrixMultply, (void *)&tabArgs[i*limIteration_X + j]);
             
         }
@@ -183,8 +172,10 @@ void gestionLargeMatrix (MatrixGroup matrixes){
         for(int k = 0; k < limIteration_X; ++k){
             pthread_join(tabTid[i*limIteration_X + k], NULL);
         }
+    free(tabTid);
+    free(tabArgs);
 
-
+    pthread_exit(NULL);
 
 }
 
@@ -195,26 +186,36 @@ Matrix* multiply(Matrix* A, Matrix* B) {
         return NULL;
     }
 
-    printf("A: %d\n", A->rows);
-    printf("B: %d\n", B->cols);
-    printf("\n");
-    //printMatrix(B);
-
     Matrix* C = matrixGenerator(A->rows, B->cols);
 
     if (C->cols * C->rows > 60*60){
-        MatrixGroup matrixes = { A, B, C};
-        gestionLargeMatrix(matrixes);
-        //printMatrix(C);
+        const int num_matrices = 5;
+        Matrix* matrices[num_matrices];
+        MatrixGroup args[num_matrices];
+        pthread_t tabTid[num_matrices];
+
+
+        for (int j = 0; j < num_matrices; ++j) {
+            matrices[j] = matrixGenerator(500, 2500);
+            for (int i = 0; i < 500; ++i) {
+                matrices[j]->matrix[i] = C->matrix[500 * j + i];
+            }
+        args[j] = (MatrixGroup){ A, B, matrices[j] }; 
+        }
+
+    for (int j = 0; j < num_matrices; ++j) {
+        if (pthread_create(&tabTid[j], NULL, gestionLargeMatrix, (void*)&args[j]) != 0) {
+        }
+    }
+
+        for(int i = 0; i < num_matrices; ++i){
+            pthread_join(tabTid[i], NULL);
+        }
+        
         return (void *)C;
         
     }
 
-
-    // printf("C: %d\n", C->cols);
-    // printf("C: %d\n", C->rows);
-    // printMatrix(C);
-    // printf("passed \n");
     
     MatrixGroup matrixes = { A, B, C};
     Limites limites = {0, C->rows, 0, C->cols};
@@ -225,8 +226,6 @@ Matrix* multiply(Matrix* A, Matrix* B) {
     pthread_join(tid, NULL);
 
 
-    //printMatrix(C);
-
     return (void*)C;
 }
 
@@ -234,20 +233,6 @@ Matrix* multiply(Matrix* A, Matrix* B) {
 // This main is to help you in your development. 
 // Don't forget to comment it out when you run the tests.
 //  int main(int argc, char*argv[])
-// {
-//     Matrix* A = matrixGenerator(60,4);
-//     Matrix* B = matrixGenerator(60,60);
-//     fillMatrixWithRandomValues(A,0, 100);
-//     fillMatrixWithRandomValues(B, 0, 100);
-//     printMatrix(B);
-//     printf("\n");
-//     printMatrix(A);
-//     printf("\n");
-//     Matrix* C = (Matrix*) multiply(B, A);
-//     printMatrix(C);
-//     freeMatrix(C);
-//     freeMatrix(A);
-//     freeMatrix(B);
-    
+// {    
 //      return 0;
 // }

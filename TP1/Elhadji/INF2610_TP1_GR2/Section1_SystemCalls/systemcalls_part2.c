@@ -25,14 +25,14 @@ void part21 ()
 {
     //TODO : La deuxième ligne "77dbcb01f571f1c32g196c3a7d27f62e (printed using printf)" doit être affichée
     //en utilisant la fonction printf pour chaque caractère du message
-    char message_printf[] = "77dbcb01f571f1c32g196c3a7d27f62e (printed using printf)";
+    char message_printf[] = "\n77dbcb01f571f1c32g196c3a7d27f62e (printed using printf)\n";
     for (int i = 0; i < strlen(message_printf); ++i){
         printf("%c", message_printf[i]);
     }
     
     // TODO : La première ligne du message "77dbcb01f571f1c32g196c3a7d27f62e (printed using write)\n" doit
     //être affichée en utilisant un seul appel système write.
-    char message_write[] = "77dbcb01f571f1c32g196c3a7d27f62e (printed using write)\n";
+    char message_write[] = "\n77dbcb01f571f1c32g196c3a7d27f62e (printed using write)\n";
     int val_write = write(stdout_fd, message_write, strlen(message_write));
 
     conclure_part21();
