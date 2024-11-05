@@ -4,3 +4,16 @@ La performance du merge_sort va diminuer, car il y aura une situation de concurr
 
 Part3_2:
 Question 1: 
+voir sorted_array.txt
+
+Question 2: 
+Le programme est environ 2 fois plus lent lorsqu'on augmente le nombre de processus, mais cela est dû au fait qu'il n'y a qu'un seul cœur sur la VM. 
+
+Question 3: 
+Non, car ce phénomène a déjà été étudié plus haut.
+
+Question 4: 
+Le code est plus rapide, car il y a moins d'opérations d'ouverture et de fermeture du fichier.
+
+Question 5: 
+ 
