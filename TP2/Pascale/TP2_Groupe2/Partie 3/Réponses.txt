@@ -1,0 +1,6 @@
+Part3_1
+Question 1:
+La performance du merge_sort va diminuer, car il y aura une situation de concurrence entre les processus pour les cœurs disponibles.
+
+Part3_2:
+Question 1: 
