@@ -6,6 +6,8 @@ int main(int argc, char *argv[]) {
         exit(1);
     }
     
+    int array_size = 0;
+    
     /* Populate the array to test the sort */
     srand(time(NULL));
     for (int i = 0; i < array_size; i++) {

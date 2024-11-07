@@ -166,13 +166,10 @@ int main(int argc, char* argv[]) {
         free(pstatus);
     }
 
-    pthread_cancel(tidFinishThread);
+   pthread_cancel(tidFinishThread);
 
    printf("%d, %d, %d, %d \n", nombreChiffresConsommes, nombrechiffresGeneres, sommeTotaleGeneree, sommeTotaleLue);
    
-   
-
-    // ..
     free(tampon);
     return 0;
 }

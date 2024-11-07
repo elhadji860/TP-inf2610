@@ -1,0 +1,98 @@
+Nombre de processus: 4
+array = [591205,916584,432478,496743,505909,842881,349124,628116,282895,745213]
+Start = 0, End = 0, Sorted = [591205], Execution time = 0 microseconds 
+
+array = [591205,916584,432478,496743,505909,842881,349124,628116,282895,745213]
+Start = 1, End = 1, Sorted = [916584], Execution time = 0 microseconds 
+
+array = [591205,916584,432478,496743,505909,842881,349124,628116,282895,745213]
+Start = 0, End = 1, Sorted = [591205,916584], Execution time = 110 microseconds 
+
+array = [591205,916584,432478,496743,505909,842881,349124,628116,282895,745213]
+Start = 2, End = 2, Sorted = [432478], Execution time = 0 microseconds 
+
+array = [432478,591205,916584,496743,505909,842881,349124,628116,282895,745213]
+Start = 0, End = 2, Sorted = [432478,591205,916584], Execution time = 126 microseconds 
+
+array = [432478,591205,916584,496743,505909,842881,349124,628116,282895,745213]
+Start = 3, End = 3, Sorted = [496743], Execution time = 0 microseconds 
+
+array = [432478,591205,916584,496743,505909,842881,349124,628116,282895,745213]
+Start = 5, End = 5, Sorted = [842881], Execution time = 0 microseconds 
+
+array = [432478,591205,916584,496743,505909,842881,349124,628116,282895,745213]
+Start = 4, End = 4, Sorted = [505909], Execution time = 0 microseconds 
+
+array = [432478,591205,916584,496743,505909,842881,349124,628116,282895,745213]
+Start = 3, End = 4, Sorted = [496743,505909], Execution time = 88 microseconds 
+
+array = [432478,591205,916584,496743,505909,842881,349124,628116,282895,745213]
+Start = 6, End = 6, Sorted = [349124], Execution time = 0 microseconds 
+
+array = [432478,591205,916584,496743,505909,349124,842881,628116,282895,745213]
+Start = 5, End = 6, Sorted = [349124,842881], Execution time = 118 microseconds 
+
+array = [432478,591205,916584,496743,505909,349124,842881,628116,282895,745213]
+Start = 7, End = 7, Sorted = [628116], Execution time = 0 microseconds 
+
+array = [432478,591205,916584,496743,505909,349124,628116,842881,282895,745213]
+Start = 5, End = 7, Sorted = [349124,628116,842881], Execution time = 129 microseconds 
+
+array = [432478,591205,916584,496743,505909,349124,628116,842881,282895,745213]
+Start = 8, End = 8, Sorted = [282895], Execution time = 0 microseconds 
+
+array = [432478,496743,505909,591205,916584,349124,628116,842881,282895,745213]
+Start = 9, End = 9, Sorted = [745213], Execution time = 0 microseconds 
+
+array = [432478,496743,505909,591205,916584,349124,628116,842881,282895,745213]
+Start = 8, End = 9, Sorted = [282895,745213], Execution time = 72 microseconds 
+
+Nombre de processus: 4
+array = [93915,674300,87070,923650,229893,246764,497714,878135,854330,892983]
+Start = 0, End = 0, Sorted = [93915], Execution time = 0 microseconds 
+
+array = [93915,674300,87070,923650,229893,246764,497714,878135,854330,892983]
+Start = 3, End = 3, Sorted = [923650], Execution time = 0 microseconds 
+
+array = [93915,674300,87070,923650,229893,246764,497714,878135,854330,892983]
+Start = 4, End = 4, Sorted = [229893], Execution time = 0 microseconds 
+
+array = [93915,674300,87070,923650,229893,246764,497714,878135,854330,892983]
+Start = 1, End = 1, Sorted = [674300], Execution time = 0 microseconds 
+
+array = [93915,674300,87070,229893,923650,246764,497714,878135,854330,892983]
+Start = 3, End = 4, Sorted = [229893,923650], Execution time = 75 microseconds 
+
+array = [93915,674300,87070,229893,923650,246764,497714,878135,854330,892983]
+Start = 0, End = 1, Sorted = [93915,674300], Execution time = 139 microseconds 
+
+array = [93915,674300,87070,229893,923650,246764,497714,878135,854330,892983]
+Start = 2, End = 2, Sorted = [87070], Execution time = 0 microseconds 
+
+array = [87070,93915,674300,229893,923650,246764,497714,878135,854330,892983]
+Start = 0, End = 2, Sorted = [87070,93915,674300], Execution time = 157 microseconds 
+
+array = [87070,93915,674300,229893,923650,246764,497714,878135,854330,892983]
+Start = 5, End = 5, Sorted = [246764], Execution time = 0 microseconds 
+
+array = [87070,93915,674300,229893,923650,246764,497714,878135,854330,892983]
+Start = 6, End = 6, Sorted = [497714], Execution time = 0 microseconds 
+
+array = [87070,93915,674300,229893,923650,246764,497714,878135,854330,892983]
+Start = 5, End = 6, Sorted = [246764,497714], Execution time = 99 microseconds 
+
+array = [87070,93915,674300,229893,923650,246764,497714,878135,854330,892983]
+Start = 7, End = 7, Sorted = [878135], Execution time = 0 microseconds 
+
+array = [87070,93915,674300,229893,923650,246764,497714,878135,854330,892983]
+Start = 5, End = 7, Sorted = [246764,497714,878135], Execution time = 111 microseconds 
+
+array = [87070,93915,674300,229893,923650,246764,497714,878135,854330,892983]
+Start = 8, End = 8, Sorted = [854330], Execution time = 0 microseconds 
+
+array = [87070,93915,674300,229893,923650,246764,497714,878135,854330,892983]
+Start = 9, End = 9, Sorted = [892983], Execution time = 0 microseconds 
+
+array = [87070,93915,674300,229893,923650,246764,497714,878135,854330,892983]
+Start = 8, End = 9, Sorted = [854330,892983], Execution time = 115 microseconds 
+
