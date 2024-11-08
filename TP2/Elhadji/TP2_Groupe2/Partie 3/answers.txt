@@ -50,6 +50,6 @@ N = 16 :  le programme est en moyenne 2 fois plus rapide;
 5. Proposez deux approches pour améliorer la performance. Dans le fichier merge_sort_upgrade.c implé-
 mentez une des solutions que vous proposez. Quel est l’ordre de grandeur de l’amélioration observée
 de la performance?
- Première approche (implémentée) : remplacer les processus par des threads et utiliser un tampon (texte_entier) pour la journalisation, au lieu de recourir fréquemment à fprintf (qui implique un appel systeme write coûteux). 
+Première approche (implémentée) : remplacer les processus par des threads et utiliser un tampon (texte_entier) pour la journalisation, au lieu de recourir fréquemment à fprintf (qui implique un appel systeme write coûteux). 
                                    Cette modification a permis d'augmenter la vitesse du processus d'environ 1,33 fois.
  

@@ -98,9 +98,7 @@ void log_array(int start, int end) {
     
     sprintf(texte_entier + strlen(texte_entier),"%d", shared_data->array[end-1]);
     strcat(texte_entier, "]\n\n");
-
     
-
 }
 
 void * execute_merge_sort_threads(void * p){
