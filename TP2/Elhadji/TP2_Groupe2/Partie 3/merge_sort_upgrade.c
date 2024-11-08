@@ -92,7 +92,6 @@ void log_array(int start, int end) {
 
     sprintf(texte_entier + strlen(texte_entier) , "start= %d, end = %d, array = [", start, end);
     for (int i = start; i < end - 1; ++i){
-        char str[20];
         sprintf(texte_entier + strlen(texte_entier),"%d", shared_data->array[i]);
     }
     

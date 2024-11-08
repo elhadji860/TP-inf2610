@@ -39,7 +39,7 @@ int main() {
      if (fork() == 0){
         int fd_tube_in = open("tube_rev2_diff", O_RDONLY);
 
-        dup2(fd_tube_in, 0); close(fd_tube_in);
+        dup2(fd_tube_in, STDIN_FILENO); close(fd_tube_in);
 
         execlp("diff", "diff", "-", "In.txt", "-s",NULL);
 

@@ -5,6 +5,7 @@
 #include <malloc.h>
 #include <stdlib.h>
 #include <stdbool.h>
+ #include <signal.h>
 
 int *tampon;
 int tailleTampon;
@@ -94,15 +95,29 @@ void* consommateur(void* cid) {
     *exitValue = sommeLu;
     pthread_exit (exitValue);
 }
+
+void handle_alarm(int sig) {
+    flag_de_fin = true;
+}
 // ...
 
 int main(int argc, char* argv[]) {
     // Les paramètres du programme sont, dans l'ordre :
     // le nombre de producteurs, le nombre de consommateurs
     // et la taille du tampon.
+    if (argc != 4) {
+        fprintf(stderr, "Usage: %s <nb_producteurs> <nb_consommateurs> <taille_tampon>\n", argv[0]);
+        exit(1);
+    }
+
     int nombreProducteurs = atoi(argv[1]);
     int nombreConsommateurs = atoi(argv[2]);
     tailleTampon = atoi(argv[3]);
+
+    if (signal(SIGALRM, handle_alarm) == SIG_ERR) {
+        perror("Error registering signal handler");
+        exit(1);
+    }
 
 
     sem_init(&libre, 1, tailleTampon);
@@ -133,9 +148,9 @@ int main(int argc, char* argv[]) {
 
     int sommeTotaleGeneree = 0;
     int sommeTotaleLue = 0;
-    sleep(1);
-    flag_de_fin = true;
-
+    
+    alarm(1);
+    
     
     for (int i = 0 ; i < nombreProducteurs; ++i){
         int* pstatus;
@@ -168,7 +183,8 @@ int main(int argc, char* argv[]) {
 
    pthread_cancel(tidFinishThread);
 
-   printf("%d, %d, %d, %d \n", nombreChiffresConsommes, nombrechiffresGeneres, sommeTotaleGeneree, sommeTotaleLue);
+   printf("nombre de chiffres consommes: %d \nnombre de chiffres generes: %d \nsomme des chiffres generes: %d \nsomme des chiffres consommes: %d\n", 
+   nombreChiffresConsommes, nombrechiffresGeneres, sommeTotaleGeneree, sommeTotaleLue);
    
     free(tampon);
     return 0;
