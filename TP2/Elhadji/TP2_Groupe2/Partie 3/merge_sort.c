@@ -24,20 +24,20 @@ int main(int argc, char *argv[]) {
         exit(1);
     }
     char* shm_name = "/shared_data";
-    int shm_size = sizeof(SharedData);
+    int shm_size = sizeof(SharedData) * 2;
 
-    int shm_fd = shm_open(shm_name, O_CREAT | O_RDWR, 0666);
-    if (shm_fd == -1) {
-        fprintf(stderr, "erreur shm_open");
+     int shm_fd = shm_open(shm_name, O_CREAT | O_RDWR, 0666);
+     if (shm_fd == -1) {
+         fprintf(stderr, "erreur shm_open");
+         exit(1);
+     }
+
+     if (ftruncate(shm_fd, shm_size) == -1) {
+         fprintf(stderr, "erreur ftruncate");
         exit(1);
-    }
-
-    if (ftruncate(shm_fd, shm_size) == -1) {
-        fprintf(stderr, "erreur ftruncate");
-       exit(1);
-    }
+     }
     
-    shared_data = mmap(NULL, shm_size,PROT_READ | PROT_WRITE, MAP_SHARED , shm_fd, 0);
+    shared_data = mmap(shm_name, shm_size, PROT_READ | PROT_WRITE, MAP_SHARED, shm_fd, 0);
     if (shared_data == MAP_FAILED){
         fprintf(stderr, "erreur mmap");
         exit(1);
@@ -45,21 +45,22 @@ int main(int argc, char *argv[]) {
     
     shared_data->size = array_size;
     
-    char* shm_array_name = "/shared_data_array";
-    int shm_array_size = sizeof(int) * array_size;
-
-    int shm_array_fd = shm_open(shm_array_name, O_CREAT | O_RDWR, 0666);
-    if (shm_array_fd == -1) {
-        fprintf(stderr, "erreur shm_open");
-        exit(1);
-    }
-
-    if (ftruncate(shm_array_fd, shm_array_size) == -1) {
-         fprintf(stderr, "erreur ftruncate");
-        exit(1);
-    }
     
-    shared_data->array = mmap(NULL, shm_array_size,PROT_READ | PROT_WRITE, MAP_SHARED , shm_array_fd, 0);
+    char* shm_array_name = "/shared_data_array";
+    int shm_array_size = (sizeof(int))* (array_size + 10) ;
+
+     int shm_array_fd = shm_open(shm_array_name, O_CREAT | O_RDWR, 0666);
+     if (shm_array_fd == -1) {
+         fprintf(stderr, "erreur shm_open");
+         exit(1);
+     }
+
+     if (ftruncate(shm_array_fd, shm_array_size) == -1) {
+          fprintf(stderr, "erreur ftruncate");
+         exit(1);
+     }
+    
+    shared_data->array = mmap(shm_array_name, shm_array_size, PROT_READ | PROT_WRITE, MAP_SHARED, shm_array_fd, 0);
     if (shared_data == MAP_FAILED){
          fprintf(stderr, "erreur mmap");
         exit(1);
@@ -71,18 +72,13 @@ int main(int argc, char *argv[]) {
         shared_data->array[i] = rand() % MAX_NUM_SIZE;
     }
 
-    int fd_std_out = dup(STDOUT_FILENO);
-    write_array_into_file();
-    show_array();
-    fflush(stdout);
-    
+   
     gettimeofday(&start_time, NULL);
 
+    write_array_into_file();
     execute_merge_sort(0, shared_data->size - 1, nbProcessus);
     
     gettimeofday(&end_time, NULL);
-    dup2(fd_std_out, STDOUT_FILENO); 
-    
     long secondes = end_time.tv_sec - start_time.tv_sec;
     long microsecondes = end_time.tv_usec - start_time.tv_usec;
 
@@ -91,6 +87,12 @@ int main(int argc, char *argv[]) {
         secondes--;
     }
 
+    FILE *fichier = fopen("sorted_array.txt", "a"); 
+
+    fprintf(fichier, "\n \n Time taken: %ld seconds and %ld microseconds\n", secondes, microsecondes);
+
+    fclose(fichier);
+
     printf("Time taken: %ld seconds and %ld microseconds\n", secondes, microsecondes);
 
     munmap(shared_data->array, sizeof(int)*shared_data->size);
@@ -98,28 +100,21 @@ int main(int argc, char *argv[]) {
     shm_unlink(shm_array_name);
     shm_unlink(shm_name);
     sem_unlink(SEM_NAME);
-    close(fd);
-    close(fd_std_out);
-
-
     return 0;
 }
 
 void log_array(int start, int end) {
     
-    char array_elements[100] = "[";
-    for (int i = start; i < end - 1; ++i){
-        char num_str[30];  
-        sprintf(num_str, "%d", shared_data->array[i]);
-        strcat(array_elements, num_str);
-        strcat(array_elements, " ,");
-    }
-    char num_str[30];
-    sprintf(num_str, "%d", shared_data->array[end - 1]);
-    strcat(array_elements, num_str);
-    strcat(array_elements, "] \n");
+    FILE *fichier = fopen("sorted_array.txt", "a");
 
-    printf("start= %d, end = %d, array = %s", start, end, array_elements);
+    fprintf(fichier, "start= %d, end = %d, array = [", start, end);
+    for (int i = start; i < end - 1; ++i){
+        fprintf(fichier, "%d, ", shared_data->array[i]);
+    }
+    
+    fprintf(fichier, "%d] \n\n", shared_data->array[end-1]);
+
+    fclose(fichier);
 }
 
 void execute_merge_sort(int start, int end, int nbProcessus){
@@ -127,9 +122,9 @@ void execute_merge_sort(int start, int end, int nbProcessus){
 
     
     if (nbProcessus <= 1 ){
+        sem_wait(mutex);
         merge_sort(start, end);
-        log_array(start, end);
-        fflush(stdout);
+        sem_post(mutex);
         return;
     }
 
@@ -168,6 +163,7 @@ void merge_sort( int left, int right) {
         merge_sort(left, mid);
         merge_sort(mid + 1, right);
         merge(left, mid, right);
+        log_array(left, right);
     }
 }
 
@@ -220,7 +216,15 @@ void show_array(){
 }
 
 void write_array_into_file(){
-    int fd = open("sorted_arrays.txt", O_WRONLY | O_CREAT | O_TRUNC, 0644);
-    dup2(fd, STDOUT_FILENO);
+    FILE *fichier = fopen("sorted_array.txt", "w");
+
+    fprintf(fichier, "array = [");
+    for (int i = 0; i < shared_data->size - 1; ++i){
+        fprintf(fichier, "%d, ", shared_data->array[i]);
+    }
+    
+    fprintf(fichier, "%d] \n\n", shared_data->array[shared_data->size-1]);
+
+    fclose(fichier);
 }
 

@@ -1,0 +1,55 @@
+Question 1 : Merge-sort parallèle
+
+1 . Supposez que vous faites passer le nombre de processus de N à N + δ, où N correspond au nombre de
+coeurs disponibles. Quel sera l’impact de ce changement sur la performance de l’algorithme?
+
+Bien que le nombre de processus dépasse celui des cœurs du processeur, ces derniers doivent tout de même être exécutés en parallèle. 
+Cette situation oblige le système d'exploitation à recourir au pseudo-parallélisme, consistant à effectuer des changements de contexte selon 
+l'état des différents processus. Cependant, ces changements de contexte peuvent avoir un impact négatif sur les performances de l'algorithme
+
+
+Question 2 : Journalisation du merge-sort
+
+1. Générez des résultats de temps d’éxécution de votre algorithme parallèle et de l’algorithme initial.
+Assurez-vous que les résultats soient représentatifs de la réalité, sinon vos réponses aux questions suiv-
+antes ne seront pas évaluées. Vous devez générer des résultats pour les valeurs suivantes du nombre N
+de processus : N = 1, 4, 8, 16
+
+!! la machine virtuelle ne possede qu'un seul coeur !!
+!! le temps d'execution est teste pour array_size = 1000!!
+
+N = 16 : Time taken: 0 seconds and 21303 microseconds
+N = 8 : Time taken: 0 seconds and 16427 microseconds
+N = 4 : Time taken: 0 seconds and 14128 microseconds
+N = 1 : Time taken: 0 seconds and 13356 microseconds
+
+2 . Comparativement au programme initial, votre programme est combien de fois plus rapide ou lent?
+
+!! la machine virtuelle ne possede qu'un seul coeur !!
+!! le temps d'execution est teste pour array_size = 1000!!
+
+N = 4 : le programme est en moyenne 1.2 fois plus lent,
+N = 8 : le programme est en moyenne 1.6 fois plus lent,
+N = 16 : le programme est en moyenne 2 fois plus lent.
+
+3. Ce résultat vous surprend-il? Justifiez.
+
+Non, le résultat est en accord avec l'explication donnée précédemment.
+
+4. vous mettez en commentaires ("comment out") le code de journalisation, le programe est-il plus rapide
+ou lent? Quel est l’ordre de grandeur du changement en performance?
+
+!! la machine virtuelle ne possede qu'un seul coeur !!
+!! le temps d'execution est teste pour array_size = 1000
+
+N = 1 : le programme est en moyenne 1000 fois plus rapide;
+N = 4 : le programme est en moyenne 10 fois plus rapide;
+N = 8 : le programme est en moyenne 2 fois plus rapide;
+N = 16 :  le programme est en moyenne 2 fois plus rapide; 
+
+5. Proposez deux approches pour améliorer la performance. Dans le fichier merge_sort_upgrade.c implé-
+mentez une des solutions que vous proposez. Quel est l’ordre de grandeur de l’amélioration observée
+de la performance?
+ Première approche (implémentée) : remplacer les processus par des threads et utiliser un tampon (texte_entier) pour la journalisation, au lieu de recourir fréquemment à fprintf (qui implique un appel systeme write coûteux). 
+                                   Cette modification a permis d'augmenter la vitesse du processus d'environ 1,33 fois.
+ 
