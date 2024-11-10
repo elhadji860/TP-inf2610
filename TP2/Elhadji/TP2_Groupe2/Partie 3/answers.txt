@@ -52,4 +52,4 @@ mentez une des solutions que vous proposez. Quel est l’ordre de grandeur de l�
 de la performance?
 Première approche (implémentée) : remplacer les processus par des threads et utiliser un tampon (texte_entier) pour la journalisation, au lieu de recourir fréquemment à fprintf (qui implique un appel systeme write coûteux). 
                                    Cette modification a permis d'augmenter la vitesse du processus d'environ 1,33 fois.
- 
+ Deuxième approche : limiter la profondeur de la récursivité de merge_sort en fixant une taille minimale de sous-tableau et trier les sous-tableau avec un algorithme plus efficace pour les petits ensembles (comme quick sort). 
