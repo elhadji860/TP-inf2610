@@ -82,6 +82,7 @@ void ajouterDansMemoire(struct RequeteMemoire* req, struct SystemeMemoire* mem) 
 void mettreAJourTLB(struct RequeteMemoire* req, struct SystemeMemoire* mem) {
 	// TODO
 	struct TLB* tlb = mem->tlb;
+	struct TablePages* tp = mem->tp;
 
     int indiceRemplacement = 0;
     unsigned long plusAncienneDate = tlb->dateCreation[0];
@@ -98,8 +99,9 @@ void mettreAJourTLB(struct RequeteMemoire* req, struct SystemeMemoire* mem) {
     }
 
     unsigned int numeroPage = calculerNumeroDePage(req->adresseVirtuelle);
+    unsigned int numeroCadre = tp->numeroCadre[numeroPage];
     tlb->numeroPage[indiceRemplacement] = numeroPage; 
-    tlb->numeroCadre[indiceRemplacement] = mem->tp->numeroCadre[numeroPage];
+    tlb->numeroCadre[indiceRemplacement] = numeroCadre;
     tlb->entreeValide[indiceRemplacement] = 1;
     tlb->dateCreation[indiceRemplacement] = req->date;
     tlb->dernierAcces[indiceRemplacement] = req->date;
