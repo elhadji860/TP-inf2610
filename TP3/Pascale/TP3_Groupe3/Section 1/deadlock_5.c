@@ -61,8 +61,10 @@ int main() {
 // le thread qui l'utilise.
 
 // Condition 4 : Attente circulaire
-// Tous les thread sauf celui en possession de sem_critical
-// se placent en attente de ce dernier.
+// Cette condition n'est pas remplie.
+// Tous les thread se partagent la même ressource,
+// il s'agit donc d'un ensemble de threads qui attendent une ressource détenue 
+// par un thread qui ne fait pas partie de l'ensemble
 
 // 2. Il ne correspond à aucun exemple vu en classe.
 

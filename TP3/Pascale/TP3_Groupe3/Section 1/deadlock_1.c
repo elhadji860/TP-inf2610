@@ -102,13 +102,12 @@ int main() {
 // Consumer : sem_busy, puis sem_critical.
 
 // Condition 3 : Pas de réquisition
-// Une fois qu'un thread a acquis un sémaphore (sem_critical, sem_initial ou sem_busy),
-// aucun autre thread ne peut lui retirer cette ressource de force.
-// Cette condition est satisfaite car chaque thread libère explicitement les sémaphores
-// après avoir terminé son utilisation.
-// Exemple :
-// Producer : sem_wait(&sem_critical); -> sem_post(&sem_critical);
-// Consumer : sem_wait(&sem_critical); -> sem_post(&sem_critical);
+// La condition n'est pas satisfaite.
+// Les sémaphores sem_initial et sem_busy ne sont pas
+// libérés par les threads qui les utilisent.
+// Les consumers utilisent sem_busy et libèrent sem_initial et
+// l'inverse pour les producers.
+// sem_critical est quant à lui libéré par les consumers et les producers.
 
 // Condition 4 : Attente circulaire
 // La condition n'est pas satisfaite.
